@@ -33,6 +33,7 @@
             this.btnIspisOtpremnice = new System.Windows.Forms.Button();
             this.btnBrisanjeOtpremnice = new System.Windows.Forms.Button();
             this.btnIzlaz = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOtpremniceUbazi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,11 +83,21 @@
             this.btnIzlaz.UseVisualStyleBackColor = true;
             this.btnIzlaz.Click += new System.EventHandler(this.btnIzlaz_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(389, 48);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "gumbicicicic";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Otpremnica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(722, 414);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnIzlaz);
             this.Controls.Add(this.btnBrisanjeOtpremnice);
             this.Controls.Add(this.btnIspisOtpremnice);
@@ -107,5 +118,6 @@
         private System.Windows.Forms.Button btnIspisOtpremnice;
         private System.Windows.Forms.Button btnBrisanjeOtpremnice;
         private System.Windows.Forms.Button btnIzlaz;
+        private System.Windows.Forms.Button button1;
     }
 }
