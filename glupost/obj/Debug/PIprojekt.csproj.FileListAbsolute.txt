@@ -70,3 +70,19 @@ C:\Users\Valentina Magdic\Documents\GitHub\Tetiva\Pi projekt\glupost\obj\Debug\P
 C:\Users\Valentina Magdic\Documents\GitHub\Tetiva\Pi projekt\glupost\obj\Debug\PIprojekt.csproj.GenerateResource.Cache
 C:\Users\Valentina Magdic\Documents\GitHub\Tetiva\Pi projekt\glupost\bin\Debug\PI.exe
 C:\Users\Valentina Magdic\Documents\GitHub\Tetiva\Pi projekt\glupost\bin\Debug\PI.pdb
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\bin\Debug\PI.exe.config
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.exe
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.pdb
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\bin\Debug\PI.exe
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\bin\Debug\PI.pdb
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PIprojekt.csprojResolveAssemblyReference.cache
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\tetiva.glavna.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.frmIspisOtpremnice.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.Korisnici.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.Narudzbenice.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.Otpremnica.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\tetiva.Prva.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\tetiva.Login.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.Properties.Resources.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PI.Roba.resources
+C:\Users\Valentina Magdic\Documents\GitHub\PI_PROJEKT_TETIVA\glupost\obj\Debug\PIprojekt.csproj.GenerateResource.Cache

@@ -60,6 +60,8 @@ namespace tetiva
 
         private void btnNarudzbenica_Click(object sender, EventArgs e)
         {
+            new PI.Narudzbenice().Show();
+            this.Hide();
 
         }
 
