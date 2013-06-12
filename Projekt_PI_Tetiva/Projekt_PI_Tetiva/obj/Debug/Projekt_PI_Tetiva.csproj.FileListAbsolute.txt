@@ -1,0 +1,13 @@
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\bin\Debug\Projekt_PI_Tetiva.exe.config
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.csprojResolveAssemblyReference.cache
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.Glavna.resources
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.Login.resources
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.Pocetna.resources
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.Properties.Resources.resources
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.csproj.GenerateResource.Cache
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\bin\Debug\Projekt_PI_Tetiva.exe
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\bin\Debug\Projekt_PI_Tetiva.pdb
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.exe
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.pdb
+c:\users\tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.Zaposlenici.resources
+C:\Users\Tibor\documents\visual studio 2012\Projects\Projekt_PI_Tetiva\Projekt_PI_Tetiva\obj\Debug\Projekt_PI_Tetiva.UnosZaposlenika.resources
