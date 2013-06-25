@@ -53,6 +53,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Narudzbenica";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -90,8 +91,6 @@
             this.txtUlogiran.ReadOnly = true;
             this.txtUlogiran.Size = new System.Drawing.Size(100, 20);
             this.txtUlogiran.TabIndex = 5;
-            this.txtUlogiran.Text = "" + UserInformation.CurrentLoggedInUser;
-  
             // 
             // Glavna
             // 

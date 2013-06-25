@@ -35,6 +35,12 @@ namespace Projekt_PI_Tetiva
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Narudzbenica().Show();
+            this.Hide();
+        }
+
 
     }
 }
