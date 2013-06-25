@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF9E2AC4-E10F-461B-9F31-4448075E0CA5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Projekt_PI_Tetiva</RootNamespace>
+    <AssemblyName>Projekt_PI_Tetiva</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="artikliDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>artikliDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="artikliliiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>artikliliiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Kreiranje otpremnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kreiranje otpremnica.Designer.cs">
+      <DependentUpon>Kreiranje otpremnica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otpremnice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otpremnice.Designer.cs">
+      <DependentUpon>Otpremnice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glavna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glavna.Designer.cs">
+      <DependentUpon>Glavna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtpremniceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtpremniceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="otpremniceDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>otpremniceDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="otpremniceeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>otpremniceeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pi2013tetivadbDataSet.cs">
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="pi2013tetivadbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pocetna.Designer.cs">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoslovniPartnerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PoslovniPartnerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportOtpremnica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportOtpremnica.Designer.cs">
+      <DependentUpon>ReportOtpremnica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportOtpremnice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportOtpremnice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reports.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Spajanje.cs" />
+    <Compile Include="UnosZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnosZaposlenika.Designer.cs">
+      <DependentUpon>UnosZaposlenika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenici.Designer.cs">
+      <DependentUpon>Zaposlenici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZaposleniciDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ZaposleniciDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Kreiranje otpremnica.resx">
+      <DependentUpon>Kreiranje otpremnica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glavna.resx">
+      <DependentUpon>Glavna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otpremnice.resx">
+      <DependentUpon>Otpremnice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pocetna.resx">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Pregled otpremnice.rdlc" />
+    <EmbeddedResource Include="ReportOtpremnica.resx">
+      <DependentUpon>ReportOtpremnica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnosZaposlenika.resx">
+      <DependentUpon>UnosZaposlenika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenici.resx">
+      <DependentUpon>Zaposlenici.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="artikliDataSet.xsc">
+      <DependentUpon>artikliDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="artikliDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>artikliDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="artikliDataSet.xss">
+      <DependentUpon>artikliDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="artikliliiDataSet.xsc">
+      <DependentUpon>artikliliiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="artikliliiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>artikliliiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="artikliliiDataSet.xss">
+      <DependentUpon>artikliliiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OtpremniceDataSet.xsc">
+      <DependentUpon>OtpremniceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OtpremniceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtpremniceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtpremniceDataSet.xss">
+      <DependentUpon>OtpremniceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="otpremniceDataSet1.xsc">
+      <DependentUpon>otpremniceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="otpremniceDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>otpremniceDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="otpremniceDataSet1.xss">
+      <DependentUpon>otpremniceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="otpremniceeDataSet.xsc">
+      <DependentUpon>otpremniceeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="otpremniceeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>otpremniceeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="otpremniceeDataSet.xss">
+      <DependentUpon>otpremniceeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pi2013tetivadbDataSet.xsc">
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pi2013tetivadbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pi2013tetivadbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pi2013tetivadbDataSet.xss">
+      <DependentUpon>pi2013tetivadbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PoslovniPartnerDataSet.xsc">
+      <DependentUpon>PoslovniPartnerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PoslovniPartnerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PoslovniPartnerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PoslovniPartnerDataSet.xss">
+      <DependentUpon>PoslovniPartnerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="reportOtpremnice.xsc">
+      <DependentUpon>reportOtpremnice.xsd</DependentUpon>
+    </None>
+    <None Include="reportOtpremnice.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reportOtpremnice.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reportOtpremnice.xss">
+      <DependentUpon>reportOtpremnice.xsd</DependentUpon>
+    </None>
+    <None Include="reports.xsc">
+      <DependentUpon>reports.xsd</DependentUpon>
+    </None>
+    <None Include="reports.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reports.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reports.xss">
+      <DependentUpon>reports.xsd</DependentUpon>
+    </None>
+    <None Include="ZaposleniciDataSet.xsc">
+      <DependentUpon>ZaposleniciDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ZaposleniciDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ZaposleniciDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ZaposleniciDataSet.xss">
+      <DependentUpon>ZaposleniciDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
